@@ -1,4 +1,4 @@
-package de.craftlancer.clapi.clans;
+package de.craftlancer.clapi.clclans;
 
 import javax.annotation.Nonnull;
 import java.util.UUID;

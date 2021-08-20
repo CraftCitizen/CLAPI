@@ -1,4 +1,4 @@
-package de.craftlancer.clapi.heroes;
+package de.craftlancer.clapi.clstuff.heroes;
 
 import java.util.List;
 
