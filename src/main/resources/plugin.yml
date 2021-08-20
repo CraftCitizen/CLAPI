@@ -1,0 +1,5 @@
+name: CLAPI
+main: de.craftlancer.clapi.CLAPI
+version: ${project.version}
+api-version: 1.14
+commands: [ ]
