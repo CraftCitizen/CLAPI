@@ -7,9 +7,9 @@ import java.util.Optional;
 
 public interface PluginBlueprints {
     
-    List<AbstractBlueprint> getBlueprints();
+    List<? extends AbstractBlueprint> getBlueprints();
     
-    Optional<AbstractBlueprint> getBlueprint(String schematic);
+    Optional<? extends AbstractBlueprint> getBlueprint(String schematic);
     
-    Optional<AbstractBlueprint> getBlueprint(ItemStack item);
+    Optional<? extends AbstractBlueprint> getBlueprint(ItemStack item);
 }

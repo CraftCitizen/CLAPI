@@ -6,6 +6,7 @@
 
     <groupId>de.craftlancer</groupId>
     <artifactId>clapi</artifactId>
+    <name>CLAPI</name>
     <version>1.0.0-SNAPSHOT</version>
 
     <properties>
@@ -42,7 +43,7 @@
                 <filtering>true</filtering>
             </resource>
         </resources>
-        <finalName>${project.name}-${project.version}</finalName>
+        <finalName>${project.name}</finalName>
 
         <plugins>
             <plugin>

@@ -1,4 +1,4 @@
-package de.craftlancer.clapi.blueprints;
+package de.craftlancer.clapi.blueprints.event;
 
 import org.bukkit.GameMode;
 import org.bukkit.Location;
