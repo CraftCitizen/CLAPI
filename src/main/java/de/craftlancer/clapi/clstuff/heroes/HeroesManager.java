@@ -8,11 +8,13 @@ import java.util.UUID;
 
 public interface HeroesManager extends ModuleManager {
     
-    void registerCategory(HeroesCategory category);
+    void registerCategory(AbstractHeroesCategory category);
     
     List<AbstractHeroesLocation> getHeroesLocations();
     
     AbstractHeroesLocation getHeroLocation(String category, String ranking);
     
     void addHeadUpdate(UUID key, Location location);
+    
+    void refreshDisplays();
 }
