@@ -30,9 +30,9 @@ public interface AbstractAlliance {
     
     boolean isMember(@Nonnull OfflinePlayer player);
     
-    void sendMessage(@Nonnull BaseComponent message, @Nonnull de.craftlancer.clapi.clclans.ClanRank minRank);
+    void sendMessage(@Nonnull BaseComponent message, @Nonnull ClanRank minRank);
     
-    void sendMessage(@Nonnull String message, @Nonnull de.craftlancer.clapi.clclans.ClanRank minRank);
+    void sendMessage(@Nonnull String message, @Nonnull ClanRank minRank);
     
     void sendMessage(@Nonnull BaseComponent message);
     
