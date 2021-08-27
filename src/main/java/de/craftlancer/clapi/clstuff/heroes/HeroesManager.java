@@ -4,7 +4,7 @@ import de.craftlancer.clapi.ModuleManager;
 
 public interface HeroesManager extends ModuleManager {
     
-    void registerCategory(AbstractHeroesCategory category);
+    void registerCategory(HeroesCategory category);
     
     void refreshDisplays();
 }
