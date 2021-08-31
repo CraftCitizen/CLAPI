@@ -36,7 +36,7 @@ public interface AbstractClan {
     String getRankName(@Nonnull ClanRank rank);
     
     @Nonnull
-    List<AbstractClanMember> getMembers();
+    List<? extends AbstractClanMember> getMembers();
     
     @Nullable
     ItemStack getBanner();
@@ -50,7 +50,7 @@ public interface AbstractClan {
     AbstractClanMember getMember(@Nonnull OfflinePlayer target);
     
     @Nonnull
-    List<AbstractClanMember> getMembersWithRank(@Nonnull ClanRank rank);
+    List<? extends AbstractClanMember> getMembersWithRank(@Nonnull ClanRank rank);
     
     @Nullable
     ClanRank getRank(@Nonnull String string);
