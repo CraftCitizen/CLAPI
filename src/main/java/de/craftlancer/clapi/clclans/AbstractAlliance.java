@@ -20,7 +20,7 @@ public interface AbstractAlliance {
     AbstractClan getCreator();
     
     @Nonnull
-    Set<AbstractClan> getMembers();
+    Set<? extends AbstractClan> getMembers();
     
     boolean addMember(@Nonnull AbstractClan clan);
     

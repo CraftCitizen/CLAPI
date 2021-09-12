@@ -25,9 +25,6 @@ public interface PluginClans {
     @Nullable
     AbstractClan getClanByUUID(@Nullable UUID uuid);
     
-    @Nonnull
-    AbstractClan addClan(@Nonnull AbstractClan clan);
-    
     boolean removeClan(@Nonnull AbstractClan clan);
     
     boolean hasAlliance(@Nonnull String string);
